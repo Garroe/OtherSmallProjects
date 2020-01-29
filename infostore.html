@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="infostore.css">
+    <title>Main Information</title>
+  </head>
+  <body>
+    <div class="wrapper">
+    <!-- Sidebar -->
+      <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Student Information</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+            <p>Report Home Page</p>
+            <li class="active">
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Attendance</a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="#">January 1</a>
+                    </li>
+                    <li>
+                        <a href="#">February 2</a>
+                    </li>
+                    <li>
+                        <a href="#">March 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Special Ed</a>
+            </li>
+            <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Progress</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="#">January</a>
+                    </li>
+                    <li>
+                        <a href="#">February</a>
+                    </li>
+                    <li>
+                        <a href="#">March</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Report Card</a>
+            </li>
+            <li>
+                <a href="#">Note</a>
+            </li>
+        </ul>
+      </nav>
+
+    <!-- Page Content -->
+      <div id="content">
+        <!-- We'll fill this with dummy content -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+              <button type="button" id="sidebarCollapse" class="btn btn-info">
+                  <i class="fas fa-align-left"></i>
+                  <span>Hide Side Menu</span>
+              </button>
+              <button type="button" id="sidebarCollapse" class="btn btn-info">
+                  <i class="fas fa-align-left"></i>
+                  <span>Add</span>
+              </button>
+          </div>
+        </nav>
+        <div class="container data-table">
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="heading bg-success" scope="col">No.</th>
+                <th class="heading bg-success" scope="col">First</th>
+                <th class="heading bg-success" scope="col">Last</th>
+                <th class="heading bg-success" scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+        <!-- <div class="sidebar bg-success text-center">
+          <ul>
+            <li><a href="#">Student</a></li>
+            <li><a href="#">Attendance</a></li>
+            <li><a href="#">Progress</a></li>
+            <li><a href="#">Special Ed</a></li>
+            <li><a href="#">Note</a></li>
+          </ul>
+        </div> -->
+        <!-- <div class="container info-data">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="info_store.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
